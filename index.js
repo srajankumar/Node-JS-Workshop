@@ -10,6 +10,10 @@ app.get("/user", function (req, res) {
   res.send("Hello World from user");
 });
 
+app.get("/about", function (req, res) {
+  res.sendFile(__dirname + "/about.html");
+});
+
 app.listen(3000, function () {
   console.log("Server is up and running...");
 });
