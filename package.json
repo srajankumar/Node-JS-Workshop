@@ -1,0 +1,22 @@
+{
+  "name": "node-js-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "HelloWorld.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srajankumar/Node-JS-Workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srajankumar/Node-JS-Workshop/issues"
+  },
+  "homepage": "https://github.com/srajankumar/Node-JS-Workshop#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

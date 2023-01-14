@@ -1,7 +1,6 @@
 const http = require("http");
-
 http
-  .createServer(function (req, req) {
+  .createServer(function (req, res) {
     res.write("Hello World!");
     res.end();
   })
